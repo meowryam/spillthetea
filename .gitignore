@@ -29,7 +29,7 @@ Win32/
 *.log
 *.vspscc
 *.vssscc
-
+*.user
 # IntelliSense / Browse info
 *.ncb
 *.VC.db
