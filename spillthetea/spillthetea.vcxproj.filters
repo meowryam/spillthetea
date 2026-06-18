@@ -15,75 +15,75 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Person.h">
+    <ClInclude Include="include\ASCII.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Menu.h">
+    <ClInclude Include="include\CafeBranch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Employee.h">
+    <ClInclude Include="include\Cluster.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Manager.h">
+    <ClInclude Include="include\Coordinates.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Coordinates.h">
+    <ClInclude Include="include\Employee.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SalesAnalytics.h">
+    <ClInclude Include="include\ForeCast.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CafeBranch.h">
+    <ClInclude Include="include\Manager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Cluster.h">
+    <ClInclude Include="include\Menu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Report.h">
+    <ClInclude Include="include\Person.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ForeCast.h">
+    <ClInclude Include="include\Report.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ASCII.h">
+    <ClInclude Include="include\SalesAnalytics.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Person.cpp">
+    <ClCompile Include="src\ASCII.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Menu.cpp">
+    <ClCompile Include="src\CafeBranch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Spillthetea.cpp">
+    <ClCompile Include="src\Cluster.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Employee.cpp">
+    <ClCompile Include="src\Coordinates.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Manager.cpp">
+    <ClCompile Include="src\Employee.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Coordinates.cpp">
+    <ClCompile Include="src\ForeCast.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SalesAnalytics.cpp">
+    <ClCompile Include="src\Manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CafeBranch.cpp">
+    <ClCompile Include="src\Menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Cluster.cpp">
+    <ClCompile Include="src\Person.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Report.cpp">
+    <ClCompile Include="src\Report.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ForeCast.cpp">
+    <ClCompile Include="src\SalesAnalytics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ASCII.cpp">
+    <ClCompile Include="src\Spillthetea.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -105,6 +105,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;$(ProjectDir)include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -120,6 +121,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;$(ProjectDir)include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,31 +129,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="ASCII.h" />
-    <ClInclude Include="CafeBranch.h" />
-    <ClInclude Include="Cluster.h" />
-    <ClInclude Include="Coordinates.h" />
-    <ClInclude Include="Employee.h" />
-    <ClInclude Include="ForeCast.h" />
-    <ClInclude Include="Manager.h" />
-    <ClInclude Include="Menu.h" />
-    <ClInclude Include="Person.h" />
-    <ClInclude Include="Report.h" />
-    <ClInclude Include="SalesAnalytics.h" />
+    <ClInclude Include="include\ASCII.h" />
+    <ClInclude Include="include\CafeBranch.h" />
+    <ClInclude Include="include\Cluster.h" />
+    <ClInclude Include="include\Coordinates.h" />
+    <ClInclude Include="include\Employee.h" />
+    <ClInclude Include="include\ForeCast.h" />
+    <ClInclude Include="include\Manager.h" />
+    <ClInclude Include="include\Menu.h" />
+    <ClInclude Include="include\Person.h" />
+    <ClInclude Include="include\Report.h" />
+    <ClInclude Include="include\SalesAnalytics.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ASCII.cpp" />
-    <ClCompile Include="CafeBranch.cpp" />
-    <ClCompile Include="Cluster.cpp" />
-    <ClCompile Include="Coordinates.cpp" />
-    <ClCompile Include="Employee.cpp" />
-    <ClCompile Include="ForeCast.cpp" />
-    <ClCompile Include="Manager.cpp" />
-    <ClCompile Include="Menu.cpp" />
-    <ClCompile Include="Person.cpp" />
-    <ClCompile Include="Report.cpp" />
-    <ClCompile Include="SalesAnalytics.cpp" />
-    <ClCompile Include="Spillthetea.cpp" />
+    <ClCompile Include="src\ASCII.cpp" />
+    <ClCompile Include="src\CafeBranch.cpp" />
+    <ClCompile Include="src\Cluster.cpp" />
+    <ClCompile Include="src\Coordinates.cpp" />
+    <ClCompile Include="src\Employee.cpp" />
+    <ClCompile Include="src\ForeCast.cpp" />
+    <ClCompile Include="src\Manager.cpp" />
+    <ClCompile Include="src\Menu.cpp" />
+    <ClCompile Include="src\Person.cpp" />
+    <ClCompile Include="src\Report.cpp" />
+    <ClCompile Include="src\SalesAnalytics.cpp" />
+    <ClCompile Include="src\Spillthetea.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
